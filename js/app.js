@@ -28,7 +28,7 @@ monedaa.addEventListener('input', e => {
                     ;
                }
                else{
-                    li.innerHTML= `<td hidden>${car.id}</td><td>${car.MA}</td><td>${car.MO}</td><td> ${e.target.value}${car.PR}</td>   `
+                    li.innerHTML= `<td hidden>${car.id}</td><td>${car.MA}</td><td>${car.MO}</td><td> $${car.PR}</td>   `
                     ;
                }
               
