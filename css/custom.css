@@ -1,0 +1,39 @@
+h1, h2 {
+    text-align: center;
+}
+body{
+
+    background: Url("https://fondosmil.com/fondo/35152.jpg");
+    background-size:cover ;
+    color:white;
+}
+input{
+    color:black;
+}
+select{
+    color:black;
+}
+table{
+    width: 100%;
+}
+#contenido {
+    margin-top: 40px;
+}
+.borrar-car,
+.borrar-car:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
